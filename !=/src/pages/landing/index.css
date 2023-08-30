@@ -1,0 +1,138 @@
+.landing-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 110vh;
+    background-color: #f2f2f1;       
+    color: #605347
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+    flex: 1;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+.header-center{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+.header-left{
+    display: flex;
+    flex: 1;
+    justify-content: left;
+    align-items: center;
+}
+.header-right{
+    display: flex;
+    flex: 1;
+    justify-content: right;
+    align-items: center;
+}
+.logo{
+    font-size:2vh;
+}
+.landing-hero{
+    display: flex;
+    flex: 9;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    
+}
+.hero-text p{
+    font-family: 'Quicksand', sans-serif;
+}
+.hero-text h1{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 10vh;
+    width: 80%;
+    text-align: center;
+margin-top: 1.5%;
+}
+.explore{
+    display: flex;
+    flex: 2;
+    justify-content: center;
+    align-items: center;
+    
+}
+.explore-button{
+    color: #605347;
+    font-size: 5vh;
+    font-family: 'Quicksand', sans-serif;
+}
+.mission{
+    display: flex;
+    flex: 1;
+    color: #605347;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    justify-content: center;
+    
+    
+}
+.mission p{
+    font-size: 1.6vh;
+    text-align: center;
+    width: 35%
+}
+@media screen and (max-width:768px) {
+    .landing-container{
+        height: 60vh;
+        padding-bottom: 0
+    }
+    
+    .landing-hero{
+       flex: 1;
+        margin-bottom: 0px;
+    }
+    .logo{
+        font-size:2vh;
+    }
+
+    .mission p{
+        font-size: 1.2vh;
+        width: 90%
+    }
+    .mission{
+        flex: 0.1;
+        font-size: 1.2vh
+    }
+    .header{
+        flex: 0.1;
+        font-size: 1.1vh;
+    }
+.hero-text p{
+    font-size: 1.2vh;
+}
+
+.hero-text h1{
+    font-size: 4vh;
+    width: 80%;
+margin-top: 1.5%;
+}
+.explore{
+    flex: 0.1
+}
+.explore-button{
+    font-size: 4vh;
+    margin-top: 1%
+}
+}

@@ -1,0 +1,86 @@
+.data-container{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Quicksand', sans-serif;
+}
+.data-right{
+flex: 1;
+background-color: #4a413f;
+}
+.data-left{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+.data-right{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.data-right h1{
+    font-size: 6vh;
+}
+.data-right p{
+    font-size: 3vh;
+    width: 80%;
+    text-align: center
+}
+.data-left img{
+     width: 80%;
+}
+.data-left h1{
+    color: #4a413f;
+    font-size: 3vh;
+    width: 80%;
+    text-align: center
+}
+.data-left p{
+    font-size: 2vh;
+    width: 80%;
+    color: #4a413f;
+}
+@media screen and (max-width:768px) {
+    .data-container{
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+    }
+    .data-right{
+    height: 30vh;
+    background-color: #4a413f;
+    }
+    .data-left{
+        height: 30vh;
+        padding-bottom: 3%
+    }
+    .data-right h1{
+        font-size: 3vh;
+    }
+    .data-right p{
+        font-size: 1.5vh;
+        width: 80%;
+        text-align: center
+    }
+    .data-left img{
+         width: 80%;
+         height: 50%
+    }
+    .data-left h1{
+        color: #4a413f;
+        font-size: 2vh;
+        width: 80%;
+        text-align: center
+    }
+    .data-left p{
+        font-size: 1.5vh;
+        width: 80%;
+        color: #4a413f;
+    }
+    }
